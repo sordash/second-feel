@@ -1,0 +1,279 @@
+p, h2 {
+  font-family: 'Circe';
+}
+h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+p {
+  font-weight: normal;
+  font-size: 30px;
+  color: #FFFFFB;
+}
+.first {
+  width: 100%;
+}
+.money {
+  position: absolute;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: start;
+  justify-content: space-between;
+  justify-items: center;
+  top: 0px;
+  height: 87.964vw;
+  width: 100%;
+}
+.money img {
+  position: relative;
+}
+.label {
+  height: 49.514vw;
+  width: 74%;
+  display: flex;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+}
+.label img:nth-of-type(1) {
+  position: absolute;
+  width: 100%;
+  top:-16.389vw;
+}
+.label img:nth-of-type(2) {
+  position: absolute;
+  top: 23%;
+  left: -7%;
+  width: 25%;
+}
+
+.shelf1 {
+  position: relative;
+  height: 43.750vw;
+  width: 100%;
+}
+
+.flag {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  right: 0px;
+  bottom: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.flag img {
+  position: absolute;
+  width: 100%;
+  right: 0px;
+}
+
+.emoji {
+  position: absolute;
+  width: 70%;
+  left: 0%;
+  bottom: -20%;
+}
+.shelf {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.polki {
+  display: block;
+}
+.shelf_mobile1, .shelf_mobile2 {
+  display: none;
+}
+.shelf2 {
+  position: relative;
+  height: 48.889vw;
+  display: flex;
+  justify-content: center;
+}
+.polka {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.stars {
+  width: 100%
+}
+.one {
+  position: absolute;
+  top: 36px;
+  left: 56px;
+}
+.two {
+  position: absolute;
+  width: 60px;
+  top: 36px;
+  left: 322px;
+}
+.three {
+  position: absolute;
+  width: 64px;
+  top: 185px;
+  left: 437px;
+}
+.four {
+  position: absolute;
+  top: 54px;
+  right: 580px;
+  width: 64px;
+}
+.five {
+  position: absolute;
+  top: 262px;
+  right: 436px;
+}
+.six {
+  position: absolute;
+  width: 60px;
+  right: 63px;
+  top: 86px;
+}
+.banki {
+  position: absolute;
+  height: 66%;
+  width: 90%;
+  bottom: 10%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: end;
+  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.banki img {
+  width: 100%;
+}
+.shelf3 {
+  position: relative;
+  height: 52.222vw;
+  display: flex;
+  justify-content: center;
+}
+.shelf3 img:last-of-type {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.box {
+  position: absolute;
+  display: block;
+  margin: auto;
+  bottom: 8%;
+}
+.shelf3 h2 {
+  color: #363859;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.shelf4 {
+  position: relative;
+  height: 44.583vw;
+  display: flex;
+  justify-content: center;
+}
+.polkaaa {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+}
+.faces {
+  position: absolute;
+  width: 90%;
+  margin: auto;
+  height: 54%;
+  bottom: 28%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: end;
+  justify-content: space-between;
+  justify-items: center;
+}
+.cringe {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+.cringe img:first-of-type {
+  position: absolute;
+  top: 8%;
+  width: 11%;
+}
+.cringe img:last-of-type {
+  width: 100%;
+}
+.fire {
+  width: 100%;
+}
+.cry {
+  width: 100%;
+}
+.shelf5 {
+  position: relative;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: end;
+  justify-content: space-between;
+  justify-items: start;
+  height: 66.667vw;
+  width: 90%;
+  margin: auto;
+}
+.table {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+}
+.table img {
+  width: 100%;
+}
+.vesy {
+  width: 100%;
+}
+.text {
+  position: absolute;
+  margin-top: 6%;
+}
+.text h2, p {
+  color: #FFFFFB;
+  position: relative;
+}
+
+.text h2:last-of-type {
+  margin-top: 16px;
+  font-weight: normal;
+}
+.text p {
+  margin-top: 34px;
+  line-height: 54px;
+}
+.podval {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 26.250vw;
+  background-color: #5B5F97;
+}
+.podval h2 {
+  color: #FFFFFB;
+  margin-left: 5%;
+  line-height: 75px;
+}
+.podval img {
+  margin-right: 5%;
+  width: 21%;
+}
