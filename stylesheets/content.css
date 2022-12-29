@@ -140,7 +140,7 @@ p {
 }
 .banki {
   position: absolute;
-  height: 66%;
+  height: 85%;
   width: 90%;
   bottom: 10%;
   display: grid;
@@ -166,6 +166,7 @@ p {
   width: 100%;
 }
 .box {
+  width: 75%;
   position: absolute;
   display: block;
   margin: auto;
@@ -193,8 +194,8 @@ p {
   position: absolute;
   width: 90%;
   margin: auto;
-  height: 54%;
-  bottom: 28%;
+  height: 83%;
+  bottom: 11%;
   display: grid;
   grid-template-columns: auto auto auto;
   align-items: end;
@@ -243,6 +244,7 @@ p {
   width: 100%;
 }
 .text {
+  width: 44%;
   position: absolute;
   margin-top: 6%;
 }
