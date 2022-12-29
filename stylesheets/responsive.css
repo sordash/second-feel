@@ -97,6 +97,7 @@
     text-align: center;
   }
   .text {
+    width: 27%;
     margin-top: 11%;
   }
 }
@@ -302,8 +303,8 @@
     width: 80%;
   }
   .text {
-    width: 23%;
-    margin-top: 11%;
+    width: 25%;
+    margin-top: 10%;
   }
 
   .text h2:last-of-type {
