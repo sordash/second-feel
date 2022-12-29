@@ -134,7 +134,7 @@
     height: 50.293vw;
   }
   .faces {
-    bottom: 25%;
+    bottom: 10%;
   }
   .cringe, .cry, .fire {
     width: 95%;
@@ -167,8 +167,11 @@
   .podval img {
     width: 245px;
   }
+  .cringe img:first-of-type {
+    top: 25%;
+  }
 }
-@media all and (max-device-width: 414px) and (min-device-width: 320px){
+@media all and (max-device-width: 414px) and (min-device-width: 320px) {
   .shelf1 {
     height: 48.438vw;
   }
@@ -349,5 +352,8 @@
   }
   .table img {
     width: 95%;
+  }
+  .text {
+    width: 39%;
   }
 }
